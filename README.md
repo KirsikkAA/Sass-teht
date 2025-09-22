@@ -2,10 +2,10 @@ variables.scss on käytetty $primary-color, $secondary-color, $background-color,
 
 mixins.scss on @mixin container, @mixin button ja @mixin respond
 
-layout.scss on esimerkiksi .site-header, jonka sisällä on .container, .logo, .main-nav
+layout.scss on esimerkiksi .site-header, jonka sisällä on .container, .logo, .main-nav <br/>
 .main-link:iin kuuluu &:hover, jossa olen käyttänyt myös lighten() funktiota
 
-Responsivuutta varten olen käyttänyt - grid-template-columns: 2fr 1fr;
+Responsivuutta varten olen käyttänyt - grid-template-columns: 2fr 1fr; <br/> 
 ja pienelle näytölle grid-template-columns: 1fr;
 
 Eri komponenteille on omat tyylit esim. .btn, .hero, .card, .sidebar

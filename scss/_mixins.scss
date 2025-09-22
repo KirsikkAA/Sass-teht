@@ -1,0 +1,21 @@
+@mixin container{
+    max-width: $container-width;
+    margin: 0 auto;
+}
+
+@mixin button($bg-color, $color-text: $color-light) {
+  background-color: $bg-color;
+  color: $color-text;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+@mixin respond($breakpoint){
+    @if $breakpoint == small {
+        @media (max-width: 600px) {@content;}
+    }
+        @if $breakpoint == medium {
+        @media (max-width: 900px) {@content;}
+    }
+}

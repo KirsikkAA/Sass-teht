@@ -13,5 +13,4 @@ Eri komponenteille on omat tyylit esim. .btn, .hero, .card, .sidebar
 style.scss on 
 @import 'variables';
 @import 'mixins';
-@import 'layout';
-,joka kääntää tiedoston style.css
+@import 'layout'; - joka kääntää tiedoston style.css

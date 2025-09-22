@@ -9,3 +9,9 @@ Responsivuutta varten olen käyttänyt - grid-template-columns: 2fr 1fr;
 ja pienelle näytölle grid-template-columns: 1fr;
 
 Eri komponenteille on omat tyylit esim. .btn, .hero, .card, .sidebar
+
+style.scss on 
+@import 'variables';
+@import 'mixins';
+@import 'layout';
+,joka kääntää tiedoston style.css
